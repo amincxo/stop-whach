@@ -1,0 +1,38 @@
+body{
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-content: center;
+}
+#box{
+    width: 500px;
+    height: 500px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-content: flex-start;
+}
+#maintext{
+    align-self: center;
+}
+#timer{
+    margin-top: 100px;
+}
+
+button{
+    width: 80px;
+    height: 35px;
+    background-color:black ;
+    color: orange;
+    border: none;
+    margin-top: 150px;
+    margin-left: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: darkviolet;
+    border-radius: 20px;
+}
